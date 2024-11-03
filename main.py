@@ -29,7 +29,7 @@ class User(UserMixin,db.Model):
 
 with app.app_context():
     db.create_all()
-
+#gjg
 
 @app.route('/')
 def home():
